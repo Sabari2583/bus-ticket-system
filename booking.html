@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Search for Buses</h2>
+        <form id="booking-form">
+            <label for="from">From:</label>
+            <input type="text" id="from" placeholder="Enter starting location" required>
+
+            <label for="to">To:</label>
+            <input type="text" id="to" placeholder="Enter destination" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+
+            <button type="submit">Search Bus</button>
+        </form>
+
+        <h2>Available Buses</h2>
+        <div id="bus-list">
+            <!-- Buses will be displayed here -->
+        </div>
+
+        
+    </div>
+    <button id="logout">Logout</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

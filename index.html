@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BusJourney - Book Your Bus Tickets</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">  <span>Bus Journey</span></div>
+          <!-- <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Routes</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul> -->
+
+            <div class="auth-buttons">
+                <a href="signin.html" class="sign-in">Sign In</a>
+                <a href="regis.html" class="register">Register</a>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Your Journey <br> Begins With Us</h1>
+            <p>Discover the easiest way to book bus tickets online. Travel to your favorite destinations with comfort and convenience.</p>
+            <button class="book-now">Book Now →</button>
+        </div>
+        <div class="booking-form">
+            <form>
+                <label>From</label>
+                <input type="text" placeholder="Enter departure city">
+                
+                <label>To</label>
+                <input type="text" placeholder="Enter destination city">
+                
+                <label>Departure Date</label>
+                <input type="date">
+                
+                <label>Passengers</label>
+                <select>
+                    <option>1 Passenger</option>
+                    <option>2 Passengers</option>
+                    <option>3 Passengers</option>
+                    <option>4+ Passengers</option>
+                </select>
+                
+                <button type="submit" class="search-buses">Search Buses</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
